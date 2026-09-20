@@ -1,0 +1,7 @@
+[project]
+name = "adome"
+version = "0.0.0"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["adome", "adome.*"]
