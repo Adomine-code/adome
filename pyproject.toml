@@ -1,12 +1,6 @@
-[build-system]
-requires = ["setuptools>=77.0.3"]
-build-backend = "setuptools.build_meta"
-
 [project]
 name = "adome"
 version = "0.0.0"
-description = "Python package for the adome project."
-readme = "README.md"
 
 [project.urls]
 Repository = "https://github.com/Ucas-Yunhui/adome"
