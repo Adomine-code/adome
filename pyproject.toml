@@ -9,8 +9,8 @@ description = "Python package for the adome project."
 readme = "README.md"
 
 [project.urls]
-Repository = "https://github.com/Adomine-code/adome"
-Issues = "https://github.com/Adomine-code/adome/issues"
+Repository = "https://github.com/Ucas-Yunhui/adome"
+Issues = "https://github.com/Ucas-Yunhui/adome/issues"
 
 [tool.setuptools.packages.find]
 where = ["."]

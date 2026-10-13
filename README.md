@@ -18,7 +18,7 @@ ADOME_PYTHON="/absolute/path/to/python"
 
 ## 发布到 PyPI
 
-[GitHub 仓库](https://github.com/Adomine-code/adome)通过
+[GitHub 仓库](https://github.com/Ucas-Yunhui/adome)通过
 [Trusted Publishing](https://docs.pypi.org/trusted-publishers/)发布到
 [PyPI](https://pypi.org/project/adome/)。
 
@@ -26,7 +26,7 @@ PyPI 的 Publishing 设置与工作流对应如下：
 
 | 设置 | 值 |
 | --- | --- |
-| Owner | `Adomine-code` |
+| Owner | `Ucas-Yunhui` |
 | Repository name | `adome` |
 | Workflow name | `publish.yml` |
 | Environment name | `pypi` |
