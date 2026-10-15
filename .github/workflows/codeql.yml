@@ -1,20 +1,12 @@
-name: CodeQL
-
 on:
   push:
     branches: [main]
   pull_request:
     branches: [main]
-  workflow_dispatch:
-
-permissions:
-  contents: read
 
 jobs:
-  analyze:
-    name: CodeQL (Python)
+  CodeQL:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
     permissions:
       contents: read
       security-events: write
@@ -27,5 +19,3 @@ jobs:
           languages: python
           queries: security-and-quality
       - uses: github/codeql-action/analyze@24c54180a607b1449ed407dd24f251e4e9147c8d # v4
-        with:
-          category: /language:python
