@@ -5,7 +5,7 @@ on:
     branches: [main]
 
 jobs:
-  CodeQL:
+  analyze:
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -19,3 +19,5 @@ jobs:
           languages: python
           queries: security-and-quality
       - uses: github/codeql-action/analyze@24c54180a607b1449ed407dd24f251e4e9147c8d # v4
+        with:
+          category: /language:python
