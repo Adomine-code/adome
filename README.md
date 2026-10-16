@@ -6,4 +6,4 @@
 
 ## 文档
 
-[使用文档](docs/README.md)
+项目文档位于 [docs/](docs/README.md)。

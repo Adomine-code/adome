@@ -10,7 +10,7 @@
 from adome import read_dat
 
 data = read_dat(
-    "IMAGE_1_256.dat",
+    "data.dat",
     shape=(512, 640),
     dtype=">u2",
 )
